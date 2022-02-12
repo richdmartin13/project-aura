@@ -8,8 +8,8 @@ function Settings(props) {
       <button onClick={() => props.setTheme(theme)} key={theme.light}
       style={{
         backgroundColor: 'transparent', borderColor: props.color, color: props.color, borderRadius: '10px',
-        padding: '10px 20px',
-        maxWidth: '130px'
+        padding: '10px 20px', minWidth: '80%',
+        maxWidth: '500px'
       }}>
         <div style={{display: 'flex', flexFlow: 'row wrap', alignItems: 'center', justifyContent: 'flex-start'}}>
           <div style={{backgroundColor: theme.light, width: '16px', height: '16px', borderRadius: '4px', margin: '5px', border: '1px solid #fff', borderColor: theme.primary,}}></div>
