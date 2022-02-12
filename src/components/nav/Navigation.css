@@ -44,7 +44,7 @@
     right: 0px;
     top: 0px;
     position: fixed;
-    padding: 16px 24px;
+    padding: 14px 24px;
     gap: 10px;
     min-height: 48px;
 }
@@ -75,7 +75,7 @@
         right: 0px;
         top: 0px;
         position: fixed;
-        padding: 24px;
+        padding: 14px 24px;
         gap: 10px;
         min-height: 62px;
     }
