@@ -46,7 +46,7 @@
     position: fixed;
     padding: 24px;
     gap: 10px;
-    min-height: 62px;
+    min-height: 48px;
 }
 
 @media only screen and (max-width: 1024px) {
