@@ -6,7 +6,9 @@ function Products() {
   var theme = themes.retro;
 
   return (
-    <h2>Products</h2>
+    <div>
+    
+    </div>
   );
 }
 

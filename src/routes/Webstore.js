@@ -6,7 +6,9 @@ function Webstore() {
   var theme = themes.retro;
 
   return (
-    <h2>Web Store</h2>
+    <div>
+    
+    </div>
   );
 }
 

@@ -10,7 +10,9 @@ function Workspace() {
   var theme = themes.retro;
 
   return (
-    <h2>Workspace</h2>
+    <div>
+    
+    </div>
   );
 }
 

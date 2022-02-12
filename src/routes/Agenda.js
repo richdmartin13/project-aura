@@ -6,7 +6,9 @@ function Agenda() {
   var theme = themes.retro;
 
   return (
-    <h2>Agenda</h2>
+    <div>
+    
+    </div>
   );
 }
 

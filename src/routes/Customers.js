@@ -6,7 +6,9 @@ function Customers() {
   var theme = themes.retro;
 
   return (
-    <h2>Customers</h2>
+    <div>
+    
+    </div>
   );
 }
 

@@ -2,7 +2,7 @@ export const pages = [
     {
         title: "Overview",
         icon: "easel",
-        url: "/overview"
+        url: "/"
     },
     {
         title: "Workspace",
@@ -10,14 +10,14 @@ export const pages = [
         url: "/workspace"
     },
     {
-        title: "Website",
-        icon: "storefront",
-        url: "/cms"
-    },
-    {
         title: "Agenda",
         icon: "calendar",
         url: "/agenda"
+    },
+    {
+        title: "Webstore",
+        icon: "storefront",
+        url: "/webstore"
     },
     {
         title: "Products",

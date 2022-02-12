@@ -5,6 +5,8 @@
   align-items: center;
   justify-content: flex-start;
   min-height: 100vh;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 
 .hStack {
@@ -14,4 +16,32 @@
   align-items: flex-start;
   justify-content: center;
   width: 100%;
+}
+
+.container {
+  margin-top: 84px;
+  margin-left: 84px;
+  width: 100%;
+  padding-left: 144px;
+}
+
+.themeList {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 70vw;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    margin-top: 84px;
+    margin-left: 0;
+    width: 100%;
+    padding-left: 50px
+  }
+
+  .themeList {
+    max-width: 90%;
+  }
 }

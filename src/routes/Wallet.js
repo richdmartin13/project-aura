@@ -6,7 +6,9 @@ function Wallet() {
   var theme = themes.retro;
 
   return (
-    <h2>Wallet</h2>
+    <div>
+    
+    </div>
   );
 }
 
