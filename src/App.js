@@ -3,7 +3,7 @@ import React from 'react';
 
 import './index.css';
 
-import Agenda from './routes/Agenda';
+import Messaging from './routes/Messaging';
 import Customers from './routes/Customers';
 import NotFound from './routes/NotFound';
 import Overview from './routes/Overview';
@@ -55,7 +55,7 @@ function App() {
           <Route path="/" element={<Overview />} />
           <Route path="workspace" element={<Workspace />} />
           <Route path="webstore" element={<Webstore />} />
-          <Route path="agenda" element={<Agenda />} />
+          <Route path="messaging" element={<Messaging />} />
           <Route path="products" element={<Products />} />
           <Route path="customers" element={<Customers />} />
           <Route path="wallet" element={<Wallet />} />

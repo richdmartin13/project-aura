@@ -1,19 +1,19 @@
 export const pages = [
     {
         title: "Overview",
-        icon: "easel",
+        icon: "home",
         url: "/"
     },
     {
         title: "Workspace",
-        icon: "cube",
+        icon: "easel",
         url: "/workspace"
     },
-    {
-        title: "Agenda",
-        icon: "calendar",
-        url: "/agenda"
-    },
+    // {
+    //     title: "Agenda",
+    //     icon: "calendar",
+    //     url: "/agenda"
+    // },
     {
         title: "Webstore",
         icon: "storefront",
@@ -28,6 +28,11 @@ export const pages = [
         title: "Customers",
         icon: "people",
         url: "/customers"
+    },
+    {
+        title: "Messaging",
+        icon: "chatbubbles",
+        url: 'messaging'
     },
     // {
     //     title: "Wallet",
