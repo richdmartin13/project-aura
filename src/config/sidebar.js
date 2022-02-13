@@ -29,11 +29,11 @@ export const pages = [
         icon: "people",
         url: "/customers"
     },
-    {
-        title: "Wallet",
-        icon: "wallet",
-        url: "/wallet"
-    },
+    // {
+    //     title: "Wallet",
+    //     icon: "wallet",
+    //     url: "/wallet"
+    // },
     {
         title: "Settings",
         icon: "cog",

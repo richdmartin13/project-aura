@@ -8,11 +8,11 @@ const forest = {
   }
 
 const ocean = {
-  light: '#F0F7F4',
-  accent: '#99E1D9',
-  primary: '#007EA7',
-  darkAccent: "#003459",
-  dark: '#00171F',
+  light: '#F0EBD8',
+  accent: '#748CAB',
+  primary: '#3E5C76',
+  darkAccent: "#1D2D44",
+  dark: '#0D1321',
   key: 'ocean'
 }
 
@@ -43,10 +43,44 @@ const retro = {
   key: 'retro'
 }
 
+const rose = {
+  light: '#EBFCFB',
+  accent: '#B09398',
+  primary: '#CEDFD9',
+  darkAccent: '#9B6A6C',
+  dark: '#5F5449',
+  key: 'rose'
+}
+
+const electric = {
+  light: '#E8E9EB',
+  accent: '#E0DFD5',
+  primary: '#EF6461',
+  darkAccent: '#E4B363',
+  dark: '#313638',
+  key: 'electric'
+}
+
+const ground = {
+  light: '#F7F0F5',
+  accent: '#DECBB7',
+  primary: '#8F857D',
+  darkAccent: '#5C5552',
+  dark: '#433633',
+  key: 'ground'
+}
+
 export const themes = {
-  forest: forest, ocean: ocean, oasis: oasis, lavender: lavender, retro: retro
+  forest: forest, 
+  ocean: ocean, 
+  oasis: oasis, 
+  lavender: lavender, 
+  retro: retro, 
+  rose: rose,
+  electric: electric,
+  ground: ground
 }
 
 export const themesArr = [
-  forest, ocean, oasis, lavender, retro
+  forest, ocean, oasis, lavender, retro, rose, electric, ground
 ]
