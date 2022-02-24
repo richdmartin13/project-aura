@@ -33,6 +33,27 @@
   max-width: 89%;
 }
 
+.customerList {
+  height: 100vh;
+  width: 20vw;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  border-right: 1px solid rgba(255,255,255, 0.2);
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.customerList::-webkit-scrollbar {
+  display: none;
+}
+
+.cListItem {
+  max-width: 400px;
+  padding: 10px 20px;
+  padding-left: 0;
+  margin-left: 0;
+}
+
 @media only screen and (max-width: 1024px) {
   .container {
     margin-top: 84px;
@@ -43,5 +64,10 @@
 
   .themeList {
     max-width: 85%;
+  }
+
+  .customerList {
+    width: 90vw;
+    border: none;
   }
 }

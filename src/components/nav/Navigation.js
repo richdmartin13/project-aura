@@ -21,7 +21,6 @@ export function NavBar(props) {
 }
 
 export function SideBar(props) {
-    //todo: change active icons to filled
     var active;
     const tabs = pages.map((page) =>
         <Link url={page.url !== "/overview" ? page.url : '/'} key={page.url} active={active} icon={page.icon} color={props.color} activeColor={props.activeColor} />
@@ -30,17 +29,7 @@ export function SideBar(props) {
     return (
         <div>
             <nav className='sidebar-container' style={{
-                // display: "flex", flexFlow: 'column nowrap',
-                // alignItems: 'center', justifyContent: 'space-between',
-                // padding: '16px', gap: "10px", backgroundColor: props.bgColor,
-                // position: 'fixed', left: 10, top: 10, bottom: 10, width: "52px", borderRadius: "14px",
-                // boxShadow: "0px 6px 12px rgba(0,0,0,0.3)"
-                // display: "flex", flexFlow: 'column-reverse wrap',
-                // alignItems: 'center', justifyContent: 'space-between',
-                // padding: '16px', paddingTop: '20px', gap: '10px', 
                 backgroundColor: props.bgColor,
-                // position: 'fixed', 
-                // left: 0, top: 0, bottom: 0, width: '52px',
             }}>
 
                 <div className='sidebar-switcher'>

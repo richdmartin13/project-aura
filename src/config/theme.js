@@ -70,6 +70,60 @@ const ground = {
   key: 'ground'
 }
 
+const monoRed = {
+  light: '#EFEFEF',
+  accent: '#EFEFEF',
+  primary: '#DE3C4B',
+  darkAccent: '#101010',
+  dark: '#101010',
+  key: 'mono red'
+}
+
+const monoOrange = {
+  light: '#EFEFEF',
+  accent: '#EFEFEF',
+  primary: '#EB6534',
+  darkAccent: '#101010',
+  dark: '#101010',
+  key: 'mono orange'
+}
+
+const monoYellow = {
+  light: '#EFEFEF',
+  accent: '#EFEFEF',
+  primary: '#F4C95D',
+  darkAccent: '#101010',
+  dark: '#101010',
+  key: 'mono yellow'
+}
+
+const monoGreen = {
+  light: '#EFEFEF',
+  accent: '#EFEFEF',
+  primary: '#3BB273',
+  darkAccent: '#101010',
+  dark: '#101010',
+  key: 'mono green'
+}
+
+const monoBlue = {
+  light: '#EFEFEF',
+  accent: '#EFEFEF',
+  primary: '#454ADE',
+  darkAccent: '#101010',
+  dark: '#101010',
+  key: 'monoBlue'
+}
+
+const monoViolet = {
+  light: '#EFEFEF',
+  accent: '#EFEFEF',
+  primary: '#B14AED',
+  darkAccent: '#101010',
+  dark: '#101010',
+  key: 'mono violet'
+}
+
 export const themes = {
   forest: forest, 
   ocean: ocean, 
@@ -78,9 +132,15 @@ export const themes = {
   retro: retro, 
   rose: rose,
   electric: electric,
-  ground: ground
+  ground: ground,
+  monoRed: monoRed,
+  monoOrange: monoOrange,
+  monoYellow: monoYellow,
+  monoGreen: monoGreen,
+  monoBlue: monoBlue,
+  monoViolet: monoViolet
 }
 
 export const themesArr = [
-  forest, ocean, oasis, lavender, retro, rose, electric, ground
+  forest, ocean, oasis, lavender, retro, rose, electric, ground, monoRed, monoOrange, monoYellow, monoGreen, monoBlue, monoViolet
 ]

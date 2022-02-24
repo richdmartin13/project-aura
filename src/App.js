@@ -22,7 +22,7 @@ import DarkToggle from './components/tools/DarkToggle';
 function App() {
   var sysDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
   const [darkMode, setDarkMode] = React.useState(sysDark)
-  const [theme, setTheme] = React.useState(themes.forest)
+  const [theme, setTheme] = React.useState(themes.mono)
   const [name, setName] = React.useState('Richard')
   const [sidebarPos, setSidebarPos] = React.useState('left')
 
@@ -31,12 +31,12 @@ function App() {
   })
 
   return (
-    <div className="App" style={{ backgroundColor: darkMode ? theme.dark : theme.light, color: darkMode ? theme.light : theme.dark }}>
+    <div className="App" style={{ backgroundColor: darkMode ? theme.dark : theme.light, color: darkMode ? theme.light : theme.dark, position: 'fixed', left: 0, right: 0, top: 0, bottom: 0 }}>
       <BrowserRouter>
       <SideBar
         bgColor={!darkMode ? theme.accent : theme.darkAccent }
         color={ darkMode ? theme.accent : theme.darkAccent }
-        activeColor={ darkMode ? theme.light : theme.dark }
+        activeColor={ theme.primary }
         initials={ name.substring(0, 1)}
         position={sidebarPos}
         setSidebarPos={setSidebarPos}
@@ -57,7 +57,9 @@ function App() {
           <Route path="webstore" element={<Webstore />} />
           <Route path="messaging" element={<Messaging />} />
           <Route path="products" element={<Products />} />
-          <Route path="customers" element={<Customers />} />
+          <Route path="customers" element={<Customers 
+            bgColor={!darkMode ? theme.accent : theme.darkAccent}
+            color={darkMode ? theme.accent : theme.darkAccent}/>} />
           <Route path="wallet" element={<Wallet />} />
           <Route path="settings" element={
             <Settings 

@@ -1,7 +1,7 @@
 export const pages = [
     {
         title: "Overview",
-        icon: "home",
+        icon: "grid",
         url: "/"
     },
     {
@@ -15,6 +15,11 @@ export const pages = [
     //     url: "/agenda"
     // },
     {
+        title: "Customers",
+        icon: "people",
+        url: "/customers"
+    },
+    {
         title: "Webstore",
         icon: "storefront",
         url: "/webstore"
@@ -24,16 +29,11 @@ export const pages = [
         icon: "bag-handle",
         url: "/products"
     },
-    {
-        title: "Customers",
-        icon: "people",
-        url: "/customers"
-    },
-    {
-        title: "Messaging",
-        icon: "chatbubbles",
-        url: 'messaging'
-    },
+    // {
+    //     title: "Messaging",
+    //     icon: "chatbubbles",
+    //     url: 'messaging'
+    // },
     // {
     //     title: "Wallet",
     //     icon: "wallet",
