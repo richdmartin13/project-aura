@@ -22,7 +22,7 @@ import DarkToggle from './components/tools/DarkToggle';
 function App() {
   var sysDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
   const [darkMode, setDarkMode] = React.useState(sysDark)
-  const [theme, setTheme] = React.useState(themes.mono)
+  const [theme, setTheme] = React.useState(themes.monoBlue)
   const [name, setName] = React.useState('Richard')
   const [sidebarPos, setSidebarPos] = React.useState('left')
 

@@ -1,6 +1,5 @@
 import '../App.css';
 import React from 'react';
-import { settings } from '../config/settings_cfg';
 import { themesArr, themes } from '../config/theme';
 
 function Settings(props) {
