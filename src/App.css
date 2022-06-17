@@ -9,6 +9,44 @@
   overflow-x: hidden;
 }
 
+
+.login-container {
+  background-color: rgba(255, 255, 255, 0.05);
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+
+.btn {
+  border-radius: 24px;
+  padding: 10px 30px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  transform: scale(0.94);
+  transition: 0.5s;
+}
+
+.btn-primary {
+  background-color: #1db954;
+  color: #fff;
+}
+
 .hStack {
   flex: 1;
   display: flex;

@@ -9,12 +9,13 @@ import { NavLink, Outlet, useResolvedPath, useMatch, useLocation } from "react-r
 export function NavBar(props) {
     const location = useLocation();
     const path = location.pathname;
+    var defaultTitle = !window.localStorage.token ? "Log In" : "Up Next";
 
     return (
         <div className='navbar-container' style={{
             backgroundColor: props.bgColor, color: props.color,
         }}>
-            <h2 style={{ margin: 0, textTransform: 'capitalize' }}>{path !== '/' ? path.substring(1) : "Overview"}</h2>
+            <h2 style={{ margin: 0, textTransform: 'capitalize' }}>{path !== '/' ? path.substring(1) : defaultTitle }</h2>
             {props.children}
         </div>
     )
@@ -32,20 +33,20 @@ export function SideBar(props) {
                 backgroundColor: props.bgColor,
             }}>
 
-                <div className='sidebar-switcher'>
+                {/* <div className='sidebar-switcher'>
                     <span style={{ width: "42px", height: "42px", backgroundColor: colors.light, borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center" }}>
                         <img src={logo} alt="logo" style={{ width: '40px', height: '40px' }} />
                     </span>
                     <ion-icon name="chevron-up-outline" />
-                </div>
+                </div> */}
                 <div className='sidebar-icons'>
                     {tabs}
                 </div>
-                <span className='sidebar-profile' style={{
+                {/* <span className='sidebar-profile' style={{
                     backgroundColor: props.color, color: props.bgColor
                 }}>
                     <h4>{props.initials}</h4>
-                </span>
+                </span> */}
                 {props.children}
             </nav>
             <Outlet />

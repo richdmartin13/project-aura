@@ -1,34 +1,44 @@
 export const pages = [
     {
-        title: "Overview",
-        icon: "grid",
+        title: "Up Next",
+        icon: "disc",
         url: "/"
     },
     {
-        title: "Workspace",
-        icon: "easel",
-        url: "/workspace"
+        title: "My Ads",
+        icon: "mic",
+        url: "/ads"
     },
+    {
+        title: "Playlists",
+        icon: "albums",
+        url: "/playlists"
+    },
+    // {
+    //     title: "Workspace",
+    //     icon: "easel",
+    //     url: "/workspace"
+    // },
     // {
     //     title: "Agenda",
     //     icon: "calendar",
     //     url: "/agenda"
     // },
-    {
-        title: "Customers",
-        icon: "people",
-        url: "/customers"
-    },
-    {
-        title: "Webstore",
-        icon: "storefront",
-        url: "/webstore"
-    },
-    {
-        title: "Products",
-        icon: "bag-handle",
-        url: "/products"
-    },
+    // {
+    //     title: "Customers",
+    //     icon: "people",
+    //     url: "/customers"
+    // },
+    // {
+    //     title: "Webstore",
+    //     icon: "storefront",
+    //     url: "/webstore"
+    // },
+    // {
+    //     title: "Products",
+    //     icon: "bag-handle",
+    //     url: "/products"
+    // },
     // {
     //     title: "Messaging",
     //     icon: "chatbubbles",

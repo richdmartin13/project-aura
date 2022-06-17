@@ -1,3 +1,5 @@
+export const baseURL = 'http://localhost:3000';
+
 export const colors = {
   light: '#CAD2C5',
   accent: '#52796F',
